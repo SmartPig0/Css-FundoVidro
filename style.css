@@ -1,0 +1,22 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+.foto-link {
+    position: relative;
+    display: inline-block;
+}
+
+.img-link {
+    position: absolute;
+    top:20px;
+    left: 80px;
+    font-size: 30px;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    box-sizing: border-box;
+    padding: 20px;
+    border-radius: 5px;
+}
